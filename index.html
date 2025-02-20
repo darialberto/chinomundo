@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor de Camisetas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Editor de Camisetas</h1>
+  <div class="container">
+    <input type="file" id="image-input" accept="image/png" />
+    <button onclick="downloadImage()">Descargar Diseño</button>
+    <canvas id="canvas" width="500" height="600"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.2.4/fabric.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

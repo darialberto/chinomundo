@@ -2,7 +2,7 @@
 const canvas = new fabric.Canvas('canvas');
 
 // Cargar la imagen de la camiseta
-fabric.Image.fromURL('https://via.placeholder.com/500x600', function (img) {
+fabric.Image.fromURL('https://i.postimg.cc/kGDdr0pF/jj.jpg', function (img) {
   img.scaleToWidth(500);
   canvas.setBackgroundImage(img, canvas.renderAll.bind(canvas));
 });
